@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FlatListItemView Component 1`] = `
+<View
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "opacity": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "flex-start",
+        "backgroundColor": "white",
+        "elevation": 3,
+        "flex": 1,
+        "flexDirection": "column",
+        "justifyContent": "center",
+        "margin": 1,
+        "padding": 12,
+      }
+    }
+  >
+    <Text>
+      Front Hazard Avoidance Camera
+    </Text>
+  </View>
+</View>
+`;
