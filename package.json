@@ -3,17 +3,25 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "android": "react-native run-android",
-    "ios": "react-native run-ios",
-    "start": "react-native start",
+    "android": "npx react-native run-android",
+    "ios": "npx react-native run-ios",
+    "start": "react-native start --reset-cache",
     "test": "jest",
     "lint": "eslint ."
   },
   "dependencies": {
+    "@react-native-community/masked-view": "0.1.11",
     "react": "16.13.1",
-    "react-native": "0.63.3"
+    "react-native": "0.63.3",
+    "react-native-gesture-handler": "1.10.3",
+    "react-native-reanimated": "2.1.0",
+    "react-native-safe-area-context": "3.2.0",
+    "react-native-screens": "3.1.1",
+    "react-navigation": "4.4.4",
+    "react-navigation-stack": "2.10.4"
   },
   "devDependencies": {
+    "@types/node-fetch": "^2.5.10",
     "@babel/core": "^7.14.0",
     "@babel/runtime": "^7.14.0",
     "@react-native-community/eslint-config": "^2.0.0",
