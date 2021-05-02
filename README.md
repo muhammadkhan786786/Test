@@ -7,7 +7,7 @@ Please follow the procedure below after cloning the project.
 * ``` yarn install``` to install project dependencies.
 * ``` yarn start ``` to run the JS packager.
 * ``` yarn test ``` to run unit and snapshot test cases.
-* ```yarn tsc ``` for validating Typescript data types.
+* ```yarn tsc ``` to run typescript for validating app data types.
 * ### For running App on iOS emulator:
   * ```cd ios && pod install && cd ..```
   * ``` yarn ios ```
